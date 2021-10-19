@@ -61,15 +61,15 @@
         "loading_timeline": "Loading Timeline... "
     }, 
     "dateformats": {
-        "full_long": "mmm d',' yyyy 'at' HH:MM",
+        "full_long": "mmm d',' yyyy 'at' HH:MM TT", 
         "full_short": "mmm d", 
         "full": "mmmm d',' yyyy", 
         "month_short": "mmm", 
-        "time_no_seconds_small_date": "HH:MM'<br/><small>'mmmm d',' yyyy'</small>'",
+        "time_no_seconds_small_date": "HH:MM TT'<br/><small>'mmmm d',' yyyy'</small>'", 
         "month": "mmmm yyyy", 
-        "time_no_seconds_short": "HH:MM",
+        "time_no_seconds_short": "HH:MM TT", 
         "time_short": "HH:MM:ss", 
         "year": "yyyy", 
-        "full_long_small_date": "HH:MM'<br/><small>mmm d',' yyyy'</small>'"
+        "full_long_small_date": "HH:MM TT'<br/><small>mmm d',' yyyy'</small>'"
     }
 }

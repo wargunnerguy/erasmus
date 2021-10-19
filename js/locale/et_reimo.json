@@ -1,5 +1,5 @@
 {
-    "lang": "et", 
+    "lang": "et_reimo",
     "date": {
         "month_abbr": [
             "jaan.", 
@@ -34,42 +34,42 @@
             "laupäev"
         ], 
         "month": [
-            "jaanuar", 
-            "veebruar", 
-            "märts", 
-            "aprill", 
-            "mai", 
-            "juuni", 
-            "juuli", 
-            "august", 
-            "september", 
-            "oktoober", 
-            "november", 
-            "detsember"
+            "jaan.",
+            "veebr.",
+            "märts",
+            "apr.",
+            "mai",
+            "juuni",
+            "juuli",
+            "aug.",
+            "sept.",
+            "okt.",
+            "nov.",
+            "dets."
         ]
     }, 
     "api": {
         "wikipedia": "et"
     }, 
     "messages": {
-        "loading": "Laadib", 
-        "contract_timeline": "Vaata kaugemalt", 
+        "loading": "Laeb.. kannatust, peremees",
+        "contract_timeline": "Vaata kaugemalt, prill",
         "return_to_title": "Tagasi algusse", 
         "wikipedia": "Wikipedia, vaba entsüklopeedia", 
-        "loading_content": "Laadib sisu", 
+        "loading_content": "Laeb sisu, OOOOOTA",
         "expand_timeline": "Vaata lähemalt", 
-        "loading_timeline": "Laadib ajajoont… "
+        "loading_timeline": "Laeb.. OOTA, krt "
     }, 
     "dateformats": {
-        "full_long": "mmm d',' yyyy 'at' h:MM TT", 
+        "full_long": "mmm d',' yyyy 'kell' HH:MM",
         "full_short": "mmm d", 
         "full": "mmmm d',' yyyy", 
         "month_short": "mmm", 
-        "time_no_seconds_small_date": "h:MM TT'<br/><small>'mmmm d',' yyyy'</small>'", 
+        "time_no_seconds_small_date": "HH:MM'<br/><small>'mmmm d',' yyyy'</small>'",
         "month": "mmmm yyyy", 
-        "time_no_seconds_short": "h:MM TT", 
-        "time_short": "h:MM:ss TT", 
+        "time_no_seconds_short": "HH:MM",
+        "time_short": "HH:MM:ss",
         "year": "yyyy", 
-        "full_long_small_date": "h:MM TT'<br/><small>mmm d',' yyyy'</small>'"
+        "full_long_small_date": "HH:MM'<br/><small>mmm d',' yyyy'</small>'"
     }
 }
