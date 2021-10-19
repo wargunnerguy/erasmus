@@ -145,12 +145,17 @@
             return url_vars;
         };
 
+
         ready(function() {
             setPageLanguage();
             var embed_path = computeEmbedPath();
             addOembedTag();
 
-            var options = optionsFromUrlParams();
+            var options = {
+                hash_bookmark: false,
+                language: "et",
+                initial_zoom: 8
+            }
             createEmbedDiv('timeline-embed', options.width, options.height);
             // ga_property_id is not something we let users override
             options.ga_property_id = 'G-FF1LX9MY1V\n';

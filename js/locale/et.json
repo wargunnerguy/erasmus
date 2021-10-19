@@ -52,24 +52,24 @@
         "wikipedia": "et"
     }, 
     "messages": {
-        "loading": "Laadib", 
+        "loading": "Laeb.. kannatust, peremees",
         "contract_timeline": "Vaata kaugemalt", 
         "return_to_title": "Tagasi algusse", 
         "wikipedia": "Wikipedia, vaba entsüklopeedia", 
-        "loading_content": "Laadib sisu", 
+        "loading_content": "Laadib sisu, OOOOOTA",
         "expand_timeline": "Vaata lähemalt", 
-        "loading_timeline": "Laadib ajajoont… "
+        "loading_timeline": "Laeb ajajoont.. oota, krt "
     }, 
     "dateformats": {
-        "full_long": "mmm d',' yyyy 'at' h:MM TT", 
-        "full_short": "mmm d", 
-        "full": "mmmm d',' yyyy", 
-        "month_short": "mmm", 
-        "time_no_seconds_small_date": "h:MM TT'<br/><small>'mmmm d',' yyyy'</small>'", 
-        "month": "mmmm yyyy", 
-        "time_no_seconds_short": "h:MM TT", 
-        "time_short": "h:MM:ss TT", 
-        "year": "yyyy", 
-        "full_long_small_date": "h:MM TT'<br/><small>mmm d',' yyyy'</small>'"
+        "full_long": "mmm d',' yyyy 'kell' HH:MM TT",
+        "full_short": "mmm d",
+        "full": "mmmm d',' yyyy",
+        "month_short": "mmm",
+        "time_no_seconds_small_date": "HH:MM TT'<br/><small>'mmmm d',' yyyy'</small>'",
+        "month": "mmmm yyyy",
+        "time_no_seconds_short": "HH:MM TT",
+        "time_short": "HH:MM:ss",
+        "year": "yyyy",
+        "full_long_small_date": "HH:MM TT'<br/><small>mmm d',' yyyy'</small>'"
     }
 }
