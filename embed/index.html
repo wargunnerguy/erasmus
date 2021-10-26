@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <!-- FAVICONS &ndash-->
+    <!-- FAVICONS  -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/pildid/sk_icon.png">
     <link rel="icon" type="image/png" href="../assets/pildid/sk_icon.png" sizes="32x32">
     <link rel="icon" type="image/png" href="../assets/pildid/sk_icon.png" sizes="16x16">
@@ -18,14 +18,22 @@
     If we want to support loading different versions of timeline like we used to,
     this isn't good enough. We used that to get the non-minimized version, for debugging,
     but now maybe sourcemaps are a better alternative?
-    &ndash-->
+     -->
     <script id='timeline-script-tag' type="text/javascript" src="../js/timeline.js"></script>
     <link rel="stylesheet" href="../css/timeline.css">
-    <!-- Google Analytics should be handled by Timeline &ndash-->
+    <!-- Google Analytics should be handled by Timeline -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FF1LX9MY1V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-FF1LX9MY1V');
+    </script>
     <base target="_blank">
 
-    <!-- Style&ndash-->
+    <!-- Style -->
     <style>
         html,
         body {
@@ -39,9 +47,9 @@
             height: 100%;
         }
     </style>
-    <!-- HTML5 shim, for IE6-8 support of HTML elements&ndash-->
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]&ndash-->
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif] -->
 </head>
 
 <body>
@@ -155,9 +163,9 @@
         }
         createEmbedDiv('timeline-embed', options.width, options.height);
         // ga_property_id is not something we let users override
-        options.ga_property_id = 'UA-27829802-4';
+        options.ga_property_id = 'G-FF1LX9MY1V';
         if (typeof(options.source) == 'undefined') {
-            options.source = '1CIBQIIne3XNOnu6rCBAQxLjd0ITxY8c_7OBv4uI3sxM' // women in computing
+            options.source = '1CIBQIIne3XNOnu6rCBAQxLjd0ITxY8c_7OBv4uI3sxM'
         }
 
         options.soundcite = true;
