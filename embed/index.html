@@ -149,7 +149,6 @@
             var uv = param_str[i].split('=');
             url_vars[uv[0]] = uv[1];
         }
-
         return url_vars;
     };
 
@@ -159,7 +158,8 @@
         addOembedTag();
 
         var options = {
-            language: '/../js/locale/et_reimo.json'
+            language: '/../js/locale/et_reimo.json',
+            start_at_end: true
         }
         createEmbedDiv('timeline-embed', options.width, options.height);
         // ga_property_id is not something we let users override
